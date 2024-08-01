@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases</title>
+</head>
+<body>
+    <script>
+        class Papel{
+            constructor(alto, ancho){
+                this.alto = alto;
+                this.ancho = ancho;
+            }
+        }
+
+        let PapelA = class{
+            constructor(alto, ancho){
+                this.alto = alto;
+                this.ancho = ancho;
+            }
+        }
+
+        let PapelB = class Papelx{
+            constructor(alto, ancho){
+                this.alto = alto;
+                this.ancho = ancho;
+            }
+        }
+
+        let papel = new Papel(5, 3);
+
+        let papel1 = new PapelA(4,4);
+
+        let papel2 = new PapelB(6,7);
+
+    </script>
+    
+</body>
+</html>
